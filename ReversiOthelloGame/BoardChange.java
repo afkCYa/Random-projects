@@ -92,7 +92,20 @@ public class BoardChange extends Board {
 		boardo[h][v] = pl.getPlayerRN();
 	}
 
-
+// make row of array
+	public void setFullRow(int v, char z, char a, char b, char c, char d, char e, char f, char g, char h, char y) {
+		boardo[0][v] = z;
+		boardo[1][v] = a;
+		boardo[2][v] = b;
+		boardo[3][v] = c;
+		boardo[4][v] = d;
+		boardo[5][v] = e;
+		boardo[6][v] = f;
+		boardo[7][v] = g;
+		boardo[8][v] = h;
+		boardo[9][v] = y;
+	}
+	
 // major flip	
 	public void flip(Square sq, Player pl) {
 		if (Validation.WW == 1) {
