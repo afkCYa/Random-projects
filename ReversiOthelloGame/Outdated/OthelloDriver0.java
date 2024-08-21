@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.io.IOException;
 
-public class OthelloDriver {
+public class OthelloDriver0 {
 
 	public static void main(String[] args) {
 // scanner magic
